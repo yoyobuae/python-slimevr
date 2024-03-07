@@ -6,9 +6,10 @@ Example usage:
 ```
 import time
 from slimevr.connection import Connection
-from slimevr.constants import Quaternion
+from slimevr.quat import Quaternion
 from slimevr.constants import DATA_TYPE_NORMAL
 
+connection = Connection()
 angle = 0.0
 while True:
     time.sleep(0.01)
